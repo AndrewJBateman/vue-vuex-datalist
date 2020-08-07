@@ -1,12 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" class="flex justify-between max-w-xl mx-auto text-2xl">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/data-list">Data List</router-link>
     </div>
     <router-view />
   </div>
+
 </template>
+
+<script>
+import { mapActions } from "vuex";
+
+export default {
+  methods: {
+    ...mapActions(["setCurrentData"]),
+  },
+  mounted() {
+    this.setCurrentData();
+  },
+};
+</script>
+
 
 <style>
 #app {
