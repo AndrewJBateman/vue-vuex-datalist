@@ -1,63 +1,57 @@
-# Vue App Crypto
+# :zap: Vue Vuex Data
 
-* Vue app to get crypto currency price data from a CryptoCompare API.
+* Vue app to display data uysing Vuex state management of data
 
 **Note:** to open web links in a new window use: _ctrl+click on link_
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [:zap: Vue Vuex Data](#zap-vue-vuex-data)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
-
-* Axios used to get API data.
+## :books: General info
 
 * Data displayed using one-way data-binding and an v-for loop.
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/.png).
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Vue framework v2.6.10](https://vuejs.org/)
-
-* [Vue Router v3.0.6](https://router.vuejs.org/) the official router for Vue.js
-
-* [Vue CLI v3.6.3](https://cli.vuejs.org/)
-
-* [Axios v0.18.0](https://github.com/axios/axios), a promise-based http client, is used to consume API data.
-
+* [Vue framework v2](https://vuejs.org/)
+* [Vue Router v3](https://router.vuejs.org/) the official router for Vue.js
+* [Vue CLI v4](https://cli.vuejs.org/)
 * [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
-## Setup
+## :floppy_disk: Setup
 
 Run `npm run serve` then navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
 
-## Code Examples
+## :computer: Code Examples
 
-## Features
+## :cool: Features
 
-* 
+* tba
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
-* Status: not working.
+* Status:
+* To-Do:
 
-* To-Do: fix issue with babel dependencies to resolve error: 'Module build failed (from ./node_modules/babel-loader/lib/index.js):
-Error: Plugin/Preset files are not allowed to export objects, only functions'.
-
-## Inspiration
+## :clap: Inspiration
 
 * [Coursetro Vue.js CryptoCurrency Tutorial - Display Exchange Data with an API](https://www.youtube.com/watch?v=S0Zznlv1qnI)
 
-## Contact
+## :envelope: Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!!!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
