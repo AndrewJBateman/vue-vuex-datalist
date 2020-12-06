@@ -1,6 +1,7 @@
 # :zap: Vue Vuex Data
 
-* Vue app to display random fact data using Vuex state management. Also shows a random image from [Unsplash](https://unsplash.com/).
+* Vue app to display random fact data using Vuex state management.
+* Also shows a random image from [Unsplash](https://unsplash.com/).
 
 **Note:** to open web links in a new window use: _ctrl+click on link_
 
@@ -22,6 +23,7 @@
 
 * Data displayed using one-way data-binding and an v-for loop.
 * Simple top navigation between random fact shown on a card and a list of facts.
+* 'purgecss' was disabled to make this work with the version upgrades. It is not required anyway.
 
 ## :camera: Screenshots
 
@@ -33,13 +35,16 @@
 * [Vue framework v2](https://vuejs.org/)
 * [Vue Router v3](https://router.vuejs.org/) the official router for Vue.js
 * [Vue CLI v4](https://cli.vuejs.org/)
-* [tailwindcss](https://www.npmjs.com/package/vue-cli-plugin-tailwind) low-level CSS framework.
+* [tailwindcss v2](https://www.npmjs.com/package/vue-cli-plugin-tailwind) low-level CSS framework plugin.
 * [Simple to use Random facts API](https://uselessfacts.jsph.pl)
 * [Vue DevTools extension for Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 ## :floppy_disk: Setup
 
+* Run `npm i` to install dependencies.
+* Run `npm run lint` to lint files. All files pass linting.
 * Run `npm run serve` then navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
+* Run `npm run build` to create a build file
 
 ## :computer: Code Examples
 
@@ -81,7 +86,7 @@ export default new Vuex.Store({
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: Add large for list of facts, add pwa storage?
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
