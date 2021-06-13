@@ -2,8 +2,12 @@
 
 * Vue app to display random fact data using Vuex state management.
 * Also shows a random image from [Unsplash](https://unsplash.com/).
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**Note:** to open web links in a new window use: _ctrl+click on link_
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/vue-vuex-datalist?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/vue-vuex-datalist?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/vue-vuex-datalist?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/vue-vuex-datalist?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -17,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -42,7 +47,6 @@
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies.
-* Run `npm run lint` to lint files. All files pass linting.
 * Run `npm run serve` then navigate to `http://localhost:8080/`. The app will automatically reload if you change any of the source files.
 * Run `npm run build` to create a build file
 
@@ -85,7 +89,7 @@ export default new Vuex.Store({
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working
+* Status: Working. Updated june 2021.
 * To-Do: Nothing
 
 ## :clap: Inspiration
@@ -93,6 +97,10 @@ export default new Vuex.Store({
 * [Tailwind CSS cards](https://tailwindcss.com/components/cards/)
 * [Generate Random Images From Unsplash Without Using The API, June 24, 2018 by Andreas Wik](https://awik.io/generate-random-images-unsplash-without-using-api/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
